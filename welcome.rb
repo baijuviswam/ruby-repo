@@ -1,4 +1,7 @@
-puts "Hello, what's your name"
+puts "Hello, what's your name ?"
 name = gets.chomp 
 
-puts "Hello #{name}. Welcome to ruby repo !!"
+puts "What's your age ?"
+age = gets.chomp
+
+puts "Hello #{name}. Welcome to ruby repo !!, You are #{age} years older !!"
